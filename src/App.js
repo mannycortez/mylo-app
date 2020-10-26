@@ -1,10 +1,11 @@
 
 import './App.css';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="Mylo App">
-      <h1>Mylo App</h1>
+    <div className="todo-app">
+      <TodoList />
     </div>
   );
 }
